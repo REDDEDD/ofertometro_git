@@ -55,6 +55,7 @@
 					    	<a class="nav-link" href="#"><button type="button" class="btn btn-danger">Registro</button></a>
 					    </li>
 					    <li class="nav-item">
+					    	<a class="nav-link" href="#"><button type="button" class="btn btn-danger" style="margin-left:-10%">Entrar</button></a>
 					    </li>
 					</ul>
 				  </div>
