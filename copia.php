@@ -8,10 +8,15 @@
 
 		<link rel="stylesheet/less" type="text/css" href="css/estilos.less" />
 		<script src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.0.2/less.min.js" ></script>
+		<link rel="icon" type="image/png" href="/img/termometro.png" />
+		<title>titulo</title>
 	</head>
 	<body>
 		<!-- CONTENEDOR GLOBAL -->
+		<div class="container sin-margen col-md-12">
+			<div class="col-md-12 bg-dark position-fixed">
 				<nav class="navbar navbar-expand-lg auto" style="padding-bottom:0px!important;padding-top:0px!important;">
+					<a class="navbar-brand" href="#"><h2 style="margin:0px"><img style="width:50px;height:50px" src="img/termometro.png">titulo</h2></a>
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				    	<span class="navbar-toggler-icon"></span>
 					</button>
@@ -23,6 +28,9 @@
 				          Ofertas
 				        </a>
 				        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+				          <a class="dropdown-item texto-negro" href="#">Oferta 1</a>
+				          <a class="dropdown-item texto-negro" href="#">Oferta 2</a>  
+				          <a class="dropdown-item texto-negro" href="#">Oferta 3</a>
 				        </div>
 				      </li>
 				      <li class="nav-item dropdown">
@@ -30,6 +38,9 @@
 				          Categorias
 				        </a>
 				        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+				          <a class="dropdown-item texto-negro" href="#">Categoria 1</a>
+				          <a class="dropdown-item texto-negro" href="#">Categoria 2</a>  
+				          <a class="dropdown-item texto-negro" href="#">Categoria 3</a>
 				        </div>
 				      </li>
 				    </ul>
@@ -50,6 +61,20 @@
 					</ul>
 				  </div>
 				</nav>
+			</div>
+		</div>
+		<div class="col-md-12" style="margin-top:6vw">
+			<h2 class="red-text text-center auto">Pagina en construccion, dejanos tu email y recibiras una notificacion tan pronto la pagina este disponible.</h2>
+			<div>
+				<form style="margin-top:5vh">
+				 	<div class="form-group row auto2">
+					    <label for="inputPassword" class="col-sm-1 col-form-label">Email</label>
+					    <div class="col-sm-9">
+					    	<input type="text" class="form-control" id="inputPassword" placeholder="test@test.com">
+					    </div>
+					    <button type="submit" class="btn btn-danger mb-2 col-sm-2">Enviar</button>
+					</div>
+				</form>
 			</div>
 		</div>
 	</body>
