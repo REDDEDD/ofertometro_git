@@ -8,14 +8,10 @@
 
 		<link rel="stylesheet/less" type="text/css" href="css/estilos.less" />
 		<script src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.0.2/less.min.js" ></script>
-		<title>Ofertometro</title>
 	</head>
 	<body>
 		<!-- CONTENEDOR GLOBAL -->
-		<div class="container-fluid sin-margen col-md-12">
-			<div class="col-md-12 navbar-light bg-dark position-fixed">
 				<nav class="navbar navbar-expand-lg auto" style="padding-bottom:0px!important;padding-top:0px!important;">
-					<a class="navbar-brand" href="#"><h2 style="margin:0px"><img style="width:50px;height:50px" src="img/termometro.png">Ofertometro</h2></a>
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				    	<span class="navbar-toggler-icon"></span>
 					</button>
@@ -27,9 +23,6 @@
 				          Ofertas
 				        </a>
 				        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-				          <a class="dropdown-item" href="#">Oferta 1</a>
-				          <a class="dropdown-item" href="#">Oferta 2</a>  
-				          <a class="dropdown-item" href="#">Oferta 3</a>
 				        </div>
 				      </li>
 				      <li class="nav-item dropdown">
@@ -37,9 +30,6 @@
 				          Categorias
 				        </a>
 				        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-				          <a class="dropdown-item" href="#">Categoria 1</a>
-				          <a class="dropdown-item" href="#">Categoria 2</a>  
-				          <a class="dropdown-item" href="#">Categoria 3</a>
 				        </div>
 				      </li>
 				    </ul>
